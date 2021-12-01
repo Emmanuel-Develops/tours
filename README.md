@@ -39,8 +39,15 @@ This project is a solution to the Capstone Project given by Sidehustle [React Tr
 ## Installing Dependencies
 > Firstly, download the repo code / clone the repo.
 
-``` git clone 
-> Run yarn install or npm install in the project directory to install any project dependencies,the code may not work as expected without doing this.
+``` git clone https://github.com/itstimiking/tours.git ```
+
+Then CD into the tours directory you just cloned and run the following respectively 
+
+``` 
+yarn install or npm install 
+yarn start or npm start
+
+``` 
 
 ## Project Structure
 

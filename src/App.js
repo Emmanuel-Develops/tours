@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import Loading from "./Components/Loading";
 
 import Tours from "./Components/Tours";
 
@@ -23,14 +24,14 @@ function App() {
 
 
     const handleRemove = (id) => {
-        let newTours = tourData.slice(); //copy the array
-        newTours.splice(id, 1); //remove the element
-        setTourData(newTours); //update the state
-        //setTourData(tourData.filter(tour => tour.id !== id)) // this is the same as the line above
+        // let newTours = tourData.slice(); //copy the array
+        // newTours.splice(id, 1); //remove the element
+        // setTourData(newTours); //update the state
+        setTourData(tourData.filter(tour => tour.id !== id)) // this is the same as the line above
     }
 
     if(loading){
-        return <p className="text-4xl font-black text-center h-96 mt-96"> Loading... </p>
+        return <Loading />
     }
 
     return tourData && (

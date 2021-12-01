@@ -17,6 +17,12 @@
 
 # Overview
 
+### Hosting
+
+- Live URL
+
+> [Team Siberia Tours App](http://team-siberia-tours.netlify.app)
+
 ## Description
 
 This project is a solution to the Capstone Project given by Sidehustle [React Track] For Week 5
@@ -32,7 +38,16 @@ This project is a solution to the Capstone Project given by Sidehustle [React Tr
 
 ## Installing Dependencies
 > Firstly, download the repo code / clone the repo.
-> Run yarn install or npm install in the project directory to install any project dependencies,the code may not work as expected without doing this.
+
+``` git clone https://github.com/itstimiking/tours.git ```
+
+Then CD into the tours directory you just cloned and run the following respectively 
+
+``` 
+yarn install or npm install 
+yarn start or npm start
+
+``` 
 
 ## Project Structure
 
@@ -45,19 +60,21 @@ The Public Folder contains The Index.html and Style.css Which is use to style th
 ### Built with
 
 - React Js
-- CSS custom properties
-- Flexbox
-- CSS Grid
+- TailwindCSS
 
 ### Version Control
 
 - Github
 
 ## Team Members
-[Timi](https://github.com/Itstimiking)
-[Nneka](https://github.com/Tricy)
-[Oluwashina](https://github.com/Oluwashina)
-[Itakpe Emmanuel](https://github.com/Emmanuel-Develops)
+
+* [Timi](https://github.com/Itstimiking) 
+
+* [Nneka](https://github.com/Tricy)
+
+* [Oluwashina](https://github.com/Oluwashina)
+
+* [Itakpe Emmanuel](https://github.com/Emmanuel-Develops)
 
 
 

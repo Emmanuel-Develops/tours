@@ -20,7 +20,7 @@ function TourCard({ tour, id, handleRemove }) {
         <div className="flex justify-between w-full mb-5">
           <h2 className="text-2xl font-bold">{tour.name}</h2>
 
-                    <button className="text-green-900 bg-green-100 rounded-md py-1 px-2"> 
+                    <button className="text-green-900 bg-green-100 rounded-md py-1 px-2 whitespace-nowrap"> 
                         {"$ " + tour.price} 
                     </button>
                 </div>
@@ -28,7 +28,7 @@ function TourCard({ tour, id, handleRemove }) {
                     {val === tour.id ? tour.info : `${tour.info.substring(0, 250)}...`}
                     <span
                       onClick={() => toggleShow(tour.id)}
-                      className="text-green-900 ml-2 cursor-pointer"
+                      className="text-blue-300 ml-2 cursor-pointer"
                     >
                       {val === tour.id ? "Show Less" : "Show More"}
                     </span>

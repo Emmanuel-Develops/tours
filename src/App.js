@@ -24,10 +24,7 @@ function App() {
 
 
     const handleRemove = (id) => {
-        // let newTours = tourData.slice(); //copy the array
-        // newTours.splice(id, 1); //remove the element
-        // setTourData(newTours); //update the state
-        setTourData(tourData.filter(tour => tour.id !== id)) // this is the same as the line above
+        setTourData(tourData.filter(tour => tour.id !== id))
     }
 
     if(loading){
